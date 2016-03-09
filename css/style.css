@@ -3,7 +3,7 @@ body {
 	font-size: 22px;
 	font-weight: normal;
 	color: #444444;
-	background-color: #fefefa;
+	background-color: #fefefd;
 	line-height: 1.5em;
 	}
 
@@ -46,3 +46,10 @@ header img {
 	height: 40px;
 	vertical-align: bottom;
 	}
+
+footer {
+	color: #555555;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
