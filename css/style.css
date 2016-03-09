@@ -2,39 +2,44 @@ body {
 	font-family: Georgia, serif;
 	font-size: 22px;
 	font-weight: normal;
-	color: #222222;
-	background-color: #fefefe;
+	color: #444444;
+	background-color: #fefefa;
 	line-height: 1.5em;
 	}
-	
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+		color: #000000;
+}
+
+a {
+	color: #999999;
+	}
+
+a:hover {
+	text-decoration: none;
+	color: blue;
+	}
+
 header, #content {
 	width: 30em;
 	margin: 0 auto;
 	float: none;
 	}
-	
-a {
-	color: #999999;
-	}
-	
-a:hover {
-	text-decoration: none;
-	color: blue;
-	}
-	
+
 header {
-	font-size: 40px;
-	font-family: Courier, Monospace;
+	font-size: 30px;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
 	font-weight: normal;
 	text-align: center;
-	margin-top: .4em;
-	margin-bottom: 1.6em;
+	margin-top: .6em;
+	margin-bottom: 1.8em;
 	}
-	
+
 header a {
 	text-decoration: none;
 	}
-	
+
 header img {
 	border-radius: 50%;
 	width: 40px;
